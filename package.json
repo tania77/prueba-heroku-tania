@@ -7,7 +7,6 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tania77/prueba-heroku-tania.git"
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/tania77/prueba-heroku-tania#readme",
   "dependencies": {
+    "ejs": "^2.5.2",
     "express": "^4.14.0"
   }
 }
