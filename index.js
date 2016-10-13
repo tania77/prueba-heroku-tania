@@ -3,10 +3,10 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/gh-pages'));
 
 // views is directory for all template files
-app.set('views', __dirname + '/views');
+app.set('gh-pages', __dirname + '/gh-pages');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
