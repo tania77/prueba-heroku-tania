@@ -20,7 +20,7 @@ app.use(express.static('gh-pages'));
 
 
 app.get('/', (request, response) => {
-  response.render('gh-pages/index.html');  
+  response.render('index');  
 });
 
 app.listen(app.get('port'), () => {
