@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tania77/prueba-heroku-tania/issues"
   },
-  "homepage": "https://github.com/tania77/prueba-heroku-tania#readme"
+  "homepage": "https://github.com/tania77/prueba-heroku-tania#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
